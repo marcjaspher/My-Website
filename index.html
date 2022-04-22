@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>🏀Basketball Training</title>
+
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- CSS link -->
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/a730f9e77e.js" crossorigin="anonymous"></script>
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="title">
+
+    <div class="nb">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img class="navimg" src="images/ball.jpg" alt="bll"></img><a class="navbar-brand" href="#">
+          <h1>MJ's Mentality Basketball Training</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-links active" aria-current="page" href="#"><button type="button">Register/Log In</button></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Download
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#"><i class="fab fa-apple"> IOS</i></a></li>
+                <li><a class="dropdown-item" href="#"><i class="fab fa-google-play"> Android</i></a></li>
+            </li>
+          </ul>
+
+          <li>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </li>
+
+      </nav>
+
+
+      <nav class="nvbr navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Camps/Dayo Series</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Store
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Basketball Hoops</a></li>
+                <li><a class="dropdown-item" href="#">Training Aids</a></li>
+                <li><a class="dropdown-item" href="#">Videos</a></li>
+                <li><a class="dropdown-item" href="#">Apps & Software</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">All Products</a></li>
+              </ul>
+            </li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Free eBooks
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">50 Coaching Drillls</a></li>
+                <li><a class="dropdown-item" href="#">50 Basketball Plays</a></li>
+                <li><a class="dropdown-item" href="#">Shooting Drills & Workouts</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Coaching Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Plays</a></li>
+                <li><a class="dropdown-item" href="#">Offensive Strategy</a></li>
+                <li><a class="dropdown-item" href="#">Defensive Strategy</a></li>
+                <li><a class="dropdown-item" href="#">Techniques/Tips</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Player Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Drills</a></li>
+                <li><a class="dropdown-item" href="#">Workouts</a></li>
+                <li><a class="dropdown-item" href="#">Skills Development</a></li>
+                <li><a class="dropdown-item" href="#">Stamina & Conditioning</a></li>
+                <li><a class="dropdown-item" href="#">Advices</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Stay Connected
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Forum</a></li>
+              </ul>
+            </li>
+
+      </nav>
+
+      <div class="container-fluid">
+
+        <div class="rw1">
+
+          <div class="row">
+            <div class="col-lg-6">
+              <center><img class="img" src="images/giphy (1).gif" alt="train"></center>
+            </div>
+            <div class="col-lg-6">
+              <center>
+                <div class="qoutes">
+
+                  <h3>"The Best way to Improve the Team is To Improve Yourself"</h3>
+                  <h5>Work Hard Dream Big</h5>
+                  <h2>Be One of Us.</h2>
+
+                </div>
+              </center>
+            </div>
+          </div>
+
+
+
+          <!-- Features -->
+
+          <section id="features">
+
+            <div class="container">
+              <div class="row justify-content-evenly">
+                <div class="col-lg-4 col-md-3 col-sm-2">
+                  <center><i class="fas fa-check-circle fa-3x"></i></center>
+                  <center>
+                    <h4>Easy to use.</h4>
+                  </center>
+                  <center>
+                    <p>So easy to use, even Kids could do it.</p>
+                  </center>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2">
+                  <center><i class="fas fa-basketball-ball fa-3x"></i></center>
+                  <center>
+                    <h4>Elite Clientele</h4>
+                  </center>
+                  <center>
+                    <p>We have all strength,so improve it and Believe in Yourself.</p>
+                  </center>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2">
+                  <center><i class="fas fa-heart fa-3x"></i></center>
+                  <center>
+                    <h4>Guaranteed to work.</h4>
+                  </center>
+                  <center>
+                    <p>You will learn a lot of new skills every day.</p>
+                  </center>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+
+          <!-- Testimonials -->
+
+          <section id="testimonials">
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h2 class="caroutext">Good Handles like Kyrie Irving? MMBT can Teach that.</h2>
+                  <img class="ball" src="images/dribbling drills.gif" alt="dribble">
+                </div>
+
+                <div class="carousel-item">
+                  <h2 class="caroutext">Be a Great Shooter like Stephen Curry.</h2>
+                  <img class="ball" src="images/ball shooting.gif" alt="shooting">
+                </div>
+
+                <div class="carousel-item">
+                  <h2 class="caroutext">Be a Best Defender like Kawhi Leonard.</h2>
+                  <img class="ball" src="images/drills-shuttle.gif" alt="shuttle">
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+          </section>
+
+
+          <!-- Press -->
+
+          <section id="press">
+            <img class="logo" src="images/techcrunch.png" alt="tc-logo">
+            <img class="logo" src="images/tnw.png" alt="tnw-logo">
+            <img class="logo" src="images/nba logo.png" alt="nba-logo">
+            <img class="logo" src="images/bizinsider.png" alt="biz-insider-logo">
+            <img class="logo" src="images/mashable.png" alt="mashable-logo">
+
+          </section>
+
+
+          <!-- Pricing -->
+
+          <section id="pricing">
+
+
+            <center>
+              <h2 class="price">Popular Videos and eBooks.</h2>
+            </center>
+
+
+            <div class="row">
+
+              <div class="col-lg-4 col-md-6">
+                <div class="rowcard">
+                  <div class="card border-dark" style="width: 20rem;">
+                    <img src="images/footwork-drills.jpg" class="card-img-top" alt="fw drill">
+                    <div class="card-header">
+                      <center>
+                        <h3>Hand & Foot Workouts</h3>
+                      </center>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">⭐⭐⭐⭐⭐ (10)</p>
+                      <p>₱ 350 /mo</p>
+                      <center>
+                        <a href="#" class="d-grid gap-2 mx-auto btn btn-secondary btn-lg">Sign Up</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-6">
+                <div class="rowcard">
+                  <div class="card border-dark" style="width: 20rem;">
+                    <img src="images/man to man defense.jpg" class="card-img-top" alt="mtm def">
+                    <div class="card-header">
+                      <center>
+                        <h3>Man to Man Defense</h3>
+                      </center>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">⭐⭐⭐⭐⭐ (12)</p>
+                      <p>₱ 250 /mo</p>
+                      <center>
+                        <a href="#" class="d-grid gap-2 mx-auto btn btn-secondary btn-lg">Sign Up</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4">
+                <div class="rowcard">
+                  <div class="card border-dark">
+                    <img class="bzone" src="images/zone.jpg" class="card-img-top" alt="bt zone">
+                    <div class="card-header">
+                      <center>
+                        <h3>Beating the Zone</h3>
+                      </center>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">⭐⭐⭐⭐ (15)</p>
+                      <p>₱ 199 /mo</h6>
+                      </p>
+                      <center>
+                        <a href="#" class="d-grid gap-2 mx-auto btn btn-secondary btn-lg">Sign Up</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </section>
+
+
+          <!-- Call to Action -->
+
+          <section id="cta">
+
+            <h3 class="footext">#1 Website for Basketball Training and Learning Products.</h3>
+            <button id="ctabutt" type="button" class="btn btn-dark"><i class="fab fa-apple"> Download</i></button>
+            <button id="ctabutt" type="button" class="btn btn-dark"><i class="fab fa-google-play"> Download</i></button>
+          </section>
+
+
+          <!-- Footer -->
+
+          <footer id="footer">
+
+
+            <div id="icon" i  class="fab fa-twitter fa-lg"></i></div>
+            <div id="icon" i  class="fab fa-facebook fa-lg"></i></div>
+            <div id="icon" i  class="fab fa-instagram-square fa-lg"></i></div>
+
+            <p>© Copyright 2018 MMBT</p>
+
+
+          </footer>
+
+
+</body>
+
+</html>

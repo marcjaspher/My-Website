@@ -1,0 +1,382 @@
+.row {
+  padding: 2%;
+}
+
+.navimg {
+  height: 3%;
+  width: 7%;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  color: blue;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.caroutext {
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  padding: 1.5% 0%;
+}
+
+.nb {
+  padding: 1.5% 1.5%;
+}
+
+.navbar {
+  padding-bottom: 2rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.fas {
+  color: orange;
+  transition: background-color .5s;
+  padding-bottom: 3%;
+}
+
+.fas:hover {
+  color: red;
+}
+
+.rw1 {
+  background-color: #FFBC80;
+}
+
+#features {
+  background-color: white;
+  padding: 150px 10px;
+}
+
+.qoutes {
+  padding: 12% .5%;
+}
+
+#testimonials {
+  background-color: gray;
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.ball {
+  height: 22%;
+  width: 50%;
+  padding: 2% 3%;
+}
+
+#press {
+  background-color: gray;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.logo {
+  width: 12%;
+  margin: 20px 45px;
+}
+
+/* Pricing section */
+#pricing {
+  background-color: white;
+  padding: 6% 3%;
+}
+
+.price {
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  padding-bottom: 2%;
+}
+
+.rowcard {
+  margin-bottom: 25px;
+}
+
+/* Call to Action */
+#cta {
+  background-color: gray;
+  padding: 2% 2% 5%;
+  text-align: center;
+}
+
+#footer {
+  background-color: white;
+  padding: 2% 2%;
+  text-align: center;
+}
+
+#icon {
+  margin: 5px;
+  padding: 1.5% .5%;
+}
+
+.footext {
+  color: white;
+  font-size: 2.5rem;
+  padding: 2% .5%;
+}
+
+#ctabutt {
+  margin: 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+  .nb {
+    padding: 1% 1%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nb {
+    padding: .5% .5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding-bottom: .5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: .5;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .row {
+    padding: 2%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    padding: 2%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .qoutes {
+    padding: 8% .5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .qoutes {
+    padding: 6% .5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #features {
+    padding: 100px 7px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #features {
+    padding: 80px 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .fas {
+    padding-bottom: 2.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fas {
+    padding-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #testimonials {
+    text-align: center;
+    padding-top: 2%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #testimonials {
+    text-align: center;
+    padding-top: 1.5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .caroutext {
+    font-size: 1.5rem;
+    padding: 1% 0%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .caroutext {
+    font-size: 1rem;
+    padding: .5% 0%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ball {
+    height: 45%;
+    width: 80%;
+    padding: 2% 3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ball {
+    height: 50%;
+    width: 100%;
+    padding: 2% 3%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 12%;
+    margin: 8px 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 12%;
+    margin: 8px 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #pricing {
+    padding: 6% 3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #pricing {
+    padding: 8% 3%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .price {
+    font-size: 2rem;
+    padding-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .price {
+    font-size: 1.5rem;
+    padding-bottom: 4%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #cta {
+    padding: 2% 2% 5%;
+  }
+  .footext {
+    font-size: 2rem;
+    padding: 2% .5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #cta {
+    padding: 2% 2% 5%;
+  }
+  .footext {
+    font-size: 1rem;
+    padding: 2% .5%;
+  }
+}
